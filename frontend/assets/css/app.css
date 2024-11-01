@@ -1,0 +1,113 @@
+/* Wrap */
+#vclg_license_verify_wrap {
+    max-width: 480px;
+}
+
+/* Form */
+#vclg_license_verify_form {
+    font: inherit;
+    display: block;
+    box-sizing: border-box;
+}
+#vclg_license_verify_form label {
+    display: block;
+    margin-bottom: 10px;
+}
+#vclg_license_verify_form span {
+    font-size: .875em;
+}
+#vclg_license_verify_form input[type="text"] {
+    font: inherit;
+    font-size: .875em;
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    background: #fff;
+    color: #666;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+    transition-property: color,background-color,border;
+    box-sizing: border-box;
+}
+#vclg_license_verify_form input[type="text"].small {
+    display: inline-block;
+    width: 72px;
+    height: 32px;
+}
+#vclg_license_verify_form button {
+    margin: 0;
+    border: none;
+    width: 100%;
+    overflow: visible;
+    font: inherit;
+    font-size: .875em;
+    font-weight: bold;
+    background-color: #424242;
+    color: #fff;
+    text-transform: none;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 30px;
+    vertical-align: middle;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    outline: 0;
+    transition: .1s ease-in-out;
+    transition-property: color,background-color,border-color;
+    cursor: pointer;
+}
+#vclg_license_verify_form button:hover {
+    background-color: #2e2e2e;
+}
+
+/* Data */
+#vclg_data_html table {
+    font: inherit;
+    font-size: .875em;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin: 20px 0 0;
+}
+#vclg_data_html table th,
+#vclg_data_html table td {
+    padding: 10px 12px;
+    vertical-align: top;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 0;
+}
+#vclg_data_html table tbody tr:nth-of-type(odd),
+#vclg_data_html table>tr:nth-of-type(odd) {
+    background: #f5f5f5;
+    border-radius: 5px;
+}
+
+/* UI */
+.alert {
+    display: block;
+    font-size: .875em;
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+.alert.alert-success {
+    background-color: #F1F8E9;
+    color: #4CAF50;
+}
+.alert.alert-error {
+    background-color: #FBE9E7;
+    color: #F44336;
+}
+.error {
+    display: block;
+    font-size: .75em !important;
+    font-style: italic;
+    margin-top: 5px;
+} 
